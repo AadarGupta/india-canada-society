@@ -29,7 +29,7 @@ const Events = () => {
         <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl lg:text-6xl">
           Past Events
         </h1>
-        <div className="px-[100px] py-12 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
+        <div className="py-12 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
           {PAST_EVENTS.length > 0 &&
             PAST_EVENTS.map((pastEvent, index) => (
               <EventCard key={index} {...pastEvent} />
